@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* LOGO  */
 .logo{
   height: 150px;
   width: 150px;
@@ -11,7 +12,7 @@
   left: -750px;
 }
 
-/* navbar */
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: right;
@@ -42,6 +43,7 @@
   z-index: -1;
 }
 
+/* Banner  */
 #banner::before{
   content:"";
   position:absolute;
@@ -83,7 +85,7 @@
   border-bottom: 2px solid #ffffff;
 }
 
-
+/* Titale */
 .highlight h3{
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
@@ -168,6 +170,7 @@
   left: 35%;
 }
 
+/* Footer */
 .footer{
   position: absolute;
   top: 300%;
